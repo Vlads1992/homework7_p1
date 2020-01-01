@@ -1,0 +1,102 @@
+.main {
+    margin-top: 143px;
+    margin-bottom: 138px;
+
+    &__heading h3 {
+        text-align: center;
+        color: #898f99;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-bottom: 37px;
+        letter-spacing: 5px;
+    }
+
+    &__heading h1 {
+        color: #0ec8cb;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 14px;
+        margin-bottom: 45px;
+    }
+
+    &__paragraph p {
+        text-align: center;
+        color: #999;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-bottom: 108px;
+    }
+
+    &__content {
+        background-color: #f7f7f7;
+        border: 1px solid #ececec;
+        padding-top: 56px;
+        text-align: center;
+        
+    }
+
+    &__content h3 {
+        color: #1b1b1b;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin-bottom: 34px;
+        
+    }
+
+    &__content p {
+        padding-bottom: 97px;
+        color: #777;
+        font-family: 'PT Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    &__content:hover {
+        background-color: #0ec8cb;
+        
+        border: 1px solid #0ec8cb;
+    }
+
+    &__content:hover p {
+        color: white;
+    }
+
+    &__content:hover h3 {
+        color: white;
+    }
+
+
+
+
+    &__content:hover img {
+        filter:  brightness(0) invert(1);
+    }
+
+    img {
+        margin-bottom: 55px;
+    }
+
+    .glasses {
+        padding-top: 13px;
+    }
+
+    .monitor {
+        padding-top: 9px;
+    }
+
+}
